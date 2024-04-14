@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../style/blog-page.css" />
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <div class="header-logo">
+              <a href="../index.html">
+                <img
+                  src="../assets/logo.png"
+                  width="130"
+                  height="59"
+                  alt="logo"
+                />
+              </a>
+            </div>
+            <button id="burger-menu-btn" class="burger-menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="nav-menu">
+              <ul class="nav-menu__links">
+                <li class="nav-menu__link">
+                  <a href="../pages/about.html" class="link"> О нас </a>
+                </li>
+                <li class="nav-menu__link">
+                  <a href="../pages/blog.html" class="link"> Блог </a>
+                </li>
+                <li class="nav-menu__link">
+                  <a href="../pages/stores.html" class="link"> Салоны </a>
+                </li>
+                <li class="nav-menu__link">
+                  <a href="../pages/contact.html" class="link"> Контакты </a>
+                </li>
+              </ul>
+            </div>
+            <div class="search">
+              <input
+                placeholder="Введите поисковый термин"
+                type="text"
+                class="search-input"
+              />
+              <button
+                id="search-button"
+                class="search-button"
+                aria-label="Поиск"
+              >
+                <i class="search-icon">
+                  <img width="20" height="20" src="../assets/loop.png" alt="" />
+                </i>
+              </button>
+              <ul class="search-results" id="search-results">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="blog-page">
+          <div class="container">
+            <div class="blog-page__content">
+              <h1 class="blog-page__title">
+                Выбираем раствор для линз
+              </h1>
+              <div class="blog-page__author">Rose</div>
+              <div class="blog-page__date">11.05.2023</div>
+              <div class="blog-page__image">
+                <img class="image" src="../assets/solution-lenses.png" alt="" />
+              </div>
+              <div class="blog-page__body">
+                <p class="blog-page__text">
+                    Современные производители предлагают огромный выбор средств для ухода за контактной оптикой. Как не потеряться в этом многообразии вариантов? Как найти «свой» раствор для линз?
+                </p>
+                  <p class="blog-page__text">
+                    Начнем с того, что носить контактные линзы плановой замены можно только с применением подходящего раствора. Именно он отвечает за хранение, дезинфекцию и увлажнение такой оптики. И именно благодаря правильно подобранному раствору Ваши линзы смогут сохранить свои первоначальные свойства на протяжении всего периода использования
+                  </p>
+                  <h2 class="blog-page__subtitle">
+                    Какие функции выполняет раствор для линз?
+                  </h2>
+                  <p class="blog-page__text">
+                    Главная задача таких средств – облегчить повседневный уход за контактной оптикой, а именно: 
+                  </p>
+                  <ul class="blog-page__list">
+                    <li class="blog-page__item">
+                      <span class="blog-page__item-text">
+                        очистить поверхность линзы от различных загрязнений;
+                      </span>
+                    </li>
+                    <li class="blog-page__item">
+                      <span class="blog-page__item-text">
+                        защитить ее от белковых, липидных и других отложений;
+                      </span>
+                    </li>
+                    <li class="blog-page__item">
+                      <span class="blog-page__item-text">
+                        помочь линзе удержать как можно больше влаги;
+                      </span>
+                    </li>
+                  </ul>
+                  <h2 class="blog-page__subtitle">
+                    Какие виды растворов для линз предлагают производители?
+                  </h2>
+                  <p class="blog-page__text">
+                    Солевой. По сути, это первое средство, созданное специально для ухода за контактной оптикой. Его основная задача – увлажнить линзу. А вот с дезинфекцией и очисткой солевые растворы справляются плохо
+                  </p>
+                  <p class="blog-page__text">
+                    Пероксидный. Такие растворы изготавливаются на основе перекиси водорода и предназначаются, прежде всего, для дезинфекции мягких контактных линз. Они быстро и эффективно удаляют все виды загрязнений, но не подходят для промывания и длительного хранения оптики
+                  </p>
+                  <p class="blog-page__text">
+                    Многофункциональный. А вот и самый популярный вид растворов для линз! Он подходит для всех типов контактной оптики и выполняет, как понятно из названия, сразу несколько функций. Такие средства предназначаются для хранения, увлажнения, очистки и дезинфекции линз
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__column footer__column_width">
+              <img
+                src="../assets/logo--footer--new.png"
+                width="100"
+                height="45"
+                alt="logo-footer"
+              />
+              <p class="footer-info">
+                Республика Беларусь<br />
+                Иностранное торгово-производственное унитарное предприятие
+                "Фильманн"<br />
+                220084 г. Минск, ул. Гикало 9<br />
+                Тел/факс +375 (17) 777-77-77
+              </p>
+            </div>
+            <div class="footer__column">
+              <h3>Страницы сайта</h3>
+              <ul class="footer-menu">
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/about.html">О нас</a>
+                </li>
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/blog.html">Блог</a>
+                </li>
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/stores.html">Салоны</a>
+                </li>
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/contact.html">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3>Социальные сети</h3>
+              <div class="social-media">
+                <a target="_blank" href="https://www.instagram.com/optika_fielinn/">
+                  <img
+                    src="../assets/inst.svg"
+                    width="30"
+                    height="30"
+                    alt="inst"
+                  />
+                </a>
+                <a target="_blank" href="https://t.me/optika_fielinn">
+                  <img
+                    src="../assets/telegrams.webp"
+                    width="30"
+                    height="30"
+                    alt="telegram"
+                  />
+                </a>
+                <a target="_blank" href="https://www.tiktok.com/@optika_fielinn_by">
+                  <img
+                    src="../assets/tik_tok.webp"
+                    width="30"
+                    height="30"
+                    alt="tiktok"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../js/burger-menu.js"></script>
+    <script type="module" src="../js/search.js"></script>
+  </body>
+</html>

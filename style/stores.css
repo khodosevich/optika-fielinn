@@ -1,0 +1,50 @@
+.stores-page h2 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.stores-page__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.stores-page__card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  transition: all 0.7s;
+}
+.stores-page__card:hover {
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+@media (max-width: 476px) {
+  .stores-page__card {
+    padding: 15px 20px;
+  }
+  .stores-page__card-img {
+    width: 250px;
+    height: 200px;
+  }
+}
+.stores-page__card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.stores-page__card-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stores-page__card-services {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 0 20px 30px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=stores.css.map */

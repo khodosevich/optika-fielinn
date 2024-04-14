@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../style/blog-page.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <div class="header-logo">
+              <a href="../index.html">
+                <img
+                  src="../assets/logo.png"
+                  width="130"
+                  height="59"
+                  alt="logo"
+                />
+              </a>
+            </div>
+            <button id="burger-menu-btn" class="burger-menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+          </button>
+            <div class="nav-menu">
+              <ul class="nav-menu__links">
+                <li class="nav-menu__link">
+                  <a href="../pages/about.html" class="link"> О нас </a>
+                </li>
+                <li class="nav-menu__link">
+                  <a href="../pages/blog.html" class="link"> Блог </a>
+                </li>
+                <li class="nav-menu__link">
+                  <a href="../pages/stores.html" class="link"> Салоны </a>
+                </li>
+                <li class="nav-menu__link">
+                  <a href="../pages/contact.html" class="link"> Контакты </a>
+                </li>
+              </ul>
+            </div>
+            <div class="search">
+              <input
+                placeholder="Введите поисковый термин"
+                type="text"
+                class="search-input"
+              />
+              <button
+                id="search-button"
+                class="search-button"
+                aria-label="Поиск"
+              >
+                <i class="search-icon">
+                  <img width="20" height="20" src="../assets/loop.png" alt="" />
+                </i>
+              </button>
+              <ul class="search-results" id="search-results">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="blog-page">
+          <div class="container">
+            <div class="blog-page__content">
+              <h1 class="blog-page__title">
+                Наши легкие "сохранили" атмосферу древней земли
+              </h1>
+              <div class="blog-page__author">Петров Иван</div>
+              <div class="blog-page__date">26.04.2023</div>
+              <div class="blog-page__image">
+                <img class="image" src="../assets/lungs.jpeg" alt="" />
+              </div>
+              <div class="blog-page__body">
+                <p class="blog-page__text">
+                  Углекислый газ считается главной климатической угрозой для
+                  цивилизации. Но мало кто знает, что для газообмена в тканях
+                  его концентрация в современной атмосфере очень низкая.
+                </p>
+                <p class="blog-page__text">
+                  Древняя атмосфера Земли наполовину состояла из СО2. С
+                  появлением фотосинтезирующих бактерий, СО2 стал усваиваться
+                  ими и накапливаться в геологических отложениях, а его
+                  концентрация в атмосфере постепенно снижалась. В период выхода
+                  позвоночных из воды на сушу и возникновения легких,
+                  концентрация СО2 достигала 4% и оставалась таковой еще сотни
+                  миллионов лет до появления более современных растений,
+                  способных связывать теперь уже дефицитный газ при его
+                  концентрации даже ниже 0,1%. В тоже время для дышащих
+                  кислородом наземных животных столь резкое снижение казалось бы
+                  ненужного СО2 обернулось неприятным сюрпризом.
+                </p>
+                <p class="blog-page__text">
+                  Действительно, для нашего организма СО2 является отходом.
+                  Однако, выделяемый клетками, в крови СО2 необходим для
+                  высвобождения молекул кислорода из комплекса с гемоглобином. С
+                  этим связан парадокс, когда на фоне физического покоя высокая
+                  частота дыхания снижает количество СО2 в крови до такой
+                  степени, что гемоглобин перестает отдавать кислород,
+                  провоцируя обморок из-за гипоксии мозга. При всей
+                  противоречивости, у данного механизма газообмена есть смысл:
+                  гемоглобин высвобождает кислород только в тех тканях, которые
+                  больше выделяют СО2, а стало быть метаболически активны и
+                  требуют много кислорода.
+                </p>
+                <p class="blog-page__text">
+                  Таким образом, резкое снижение СО2 в атмосфере древней земли
+                  должно было уменьшить его концентрацию и в крови ее
+                  обитателей, что чревато гипоксией тканей. По одной из версий
+                  это могло стать причиной вымирания динозавров, останки которых
+                  часто обнаруживаются в позах характерных для погибших от
+                  гипоксии. Но как в таком случае этот кризис пережили наши
+                  предки - первые млекопитающие?
+                </p>
+                <p class="blog-page__text">
+                  За один цикл вдох-выдох в наших легких заменяется лишь 15-20%
+                  воздуха. И даже после максимального выдоха в легких все еще
+                  остается 30% от их общей емкости. Не участвующий в циркуляции
+                  остаточный объем легких обусловлен наличием мертвого
+                  пространства дыхательной системы - это пространства
+                  дыхательных путей и не участвующих в дыхании альвеол. Как раз
+                  благодаря большому объему мертвого пространства остаточный
+                  объем медленнее разбавляется свежими порциями вдыхаемого
+                  воздуха и потому успевает насыщаться выделяемым организмом
+                  СО2. В итоге его концентрация в мертвом пространстве легких
+                  достигает 4%, что в 100 раз выше концентрации этого газа в
+                  современной атмосфере Земли, но точно совпадает с таковой
+                  концентрацией в атмосфере древней.
+                </p>
+                <p class="blog-page__text">
+                  Таким образом, мертвое пространство можно считать своего рода
+                  резервуаром, в котором природа воссоздала состав древней
+                  атмосферы. Это позволило сохранить в крови концентрацию СО2,
+                  достаточную для обеспечения тканей кислородом.
+                </p>
+                <p class="blog-page__text">
+                  Это не единственный пример сохранения в нашем организме
+                  состава внешней среды. Так, например, наши почки сохраняют
+                  "внутреннее море", поддерживая электролитный состав крови,
+                  сходный с таковым составом морской воды. Но об этом в
+                  следующий раз. Подписывайтесь, чтобы не пропустить обновления.
+                  Кстати, в своем телеграм-канале посты публикую раньше и там
+                  тоже можно оставлять комментарии.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__column footer__column_width">
+              <img
+                src="../assets/logo--footer--new.png"
+                width="100"
+                height="45"
+                alt="logo-footer"
+              />
+              <p class="footer-info">
+                Республика Беларусь<br />
+                Иностранное торгово-производственное унитарное предприятие
+                "Фильманн"<br />
+                220084 г. Минск, ул. Гикало 9<br />
+                Тел/факс +375 (17) 777-77-77
+              </p>
+            </div>
+            <div class="footer__column">
+              <h3>Страницы сайта</h3>
+              <ul class="footer-menu">
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/about.html">О нас</a>
+                </li>
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/blog.html">Блог</a>
+                </li>
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/stores.html">Салоны</a>
+                </li>
+                <li class="nav-menu__link nav-menu__link_footer">
+                  <a class="link" href="../pages/contact.html">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3>Социальные сети</h3>
+              <div class="social-media">
+                <a target="_blank" href="https://www.instagram.com/optika_fielinn/">
+                  <img
+                    src="../assets/inst.svg"
+                    width="30"
+                    height="30"
+                    alt="inst"
+                  />
+                </a>
+                <a target="_blank" href="https://t.me/optika_fielinn">
+                  <img
+                    src="../assets/telegrams.webp"
+                    width="30"
+                    height="30"
+                    alt="telegram"
+                  />
+                </a>
+                <a target="_blank" href="https://www.tiktok.com/@optika_fielinn_by">
+                  <img
+                    src="../assets/tik_tok.webp"
+                    width="30"
+                    height="30"
+                    alt="tiktok"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../js/burger-menu.js"></script>
+    <script type="module" src="../js/search.js"></script>
+  </body>
+</html>

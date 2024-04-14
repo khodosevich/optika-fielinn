@@ -1,0 +1,24 @@
+.about-page {
+    margin-top: 30px;
+    font-family: "Source Serif 4", serif;
+
+    &__content {
+        & h1 {
+            margin: 20px 0;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        margin: 20px 0;
+    }
+}

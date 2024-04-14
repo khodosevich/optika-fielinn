@@ -1,0 +1,58 @@
+.contact-page {
+    font-family: "Montserrat", serif;
+    font-size: 22px;
+
+    &__title {
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 40px 0;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__info-item {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        width: 400px;
+
+        @media (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__info-text {
+        color: #3e3e3e;
+    }
+    &__info-link {
+        color: #101010;
+        font-weight: 600;
+        opacity: 0.8;
+        transition: color 0.5s;
+
+
+        &:hover {
+            color: #bebdbb;
+            text-decoration: none;
+        }
+    }
+
+    &__info-bold {
+        font-weight: 700;
+        color: #1a1a1a;
+    }
+}
+
+.map {
+    margin-bottom: -50px;
+}
